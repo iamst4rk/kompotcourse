@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reg.css">
+    <link rel="stylesheet" href="../css/btnGoogle.css">
+    <script src="/js/reg.js" type="text/javascript"></script>
+    <script src="https://apis.google.com/js/api:client.js" type="text/javascript"></script>
+    <script src="/js/auth.js" type="text/javascript"></script>
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="reg-container">
+            <form action="index.html">
+                <a id="auth-txt">Регистрация</a>
+                <div id="gSignInWrapper">
+                  <!-- <span class="label"></span> -->
+                  <div id="customBtn" class="customGPlusSignIn">
+                    <img id="logo" src="https://img.icons8.com/color/48/000000/google-logo.png"/>
+                    <span class="buttonText">Войти через Google</span>
+                  </div>
+                </div>
+                <div class="border-container">
+                  <label class="line"></label>
+                  <a id="or">Или через электроную почту</a>
+                  <label class="line"></label>
+                </div>
+                <div id="name"></div>
+                <div class="input-div">
+                    <div>
+                        <a class="fio-txt">ФИО</a> <br>
+                        <input id="fio" class="input" type="text">
+                    </div>
+                </div>
+                <div class="input-div">
+                  <div>
+                    <a class="a-txt">Email</a> <br>
+                    <input id="user" class="input" type="text">
+                  </div>
+                </div>
+                <div class="input-div">
+                  <div class="pass-container">
+                    <a class="a-txt">Пароль</a> <br>
+                    <input id="pass" class="input password" type="password">
+                    <input id="pass-check1" class="show-pass" type="checkbox" onclick="myFunction()">
+                  </div>
+                </div>
+                <div class="input-div">
+                  <div class="pass-confirm-container">
+                    <a class="a-txt">Подтверждение пароля</a>
+                    <input id="pass-confirm" class="input password-confirm" type="password">
+                    <input id="pass-check2" class="show-pass" type="checkbox" onclick="myFunction()">
+                  </div>
+                </div>
+                <div>
+                  <input type="checkbox" name="accept" id="accept" onclick="checkMe()">
+                  <label class="remMe" for="accept">Принимаю условия</label>
+                  <a href="https://policies.google.com/privacy?hl=ru" target="blank">Политики конфиденциальности</a>
+                </div>
+                <input type="submit" id="btnEnt" value="Зарегистрироваться" disabled>
+                <div>
+                  <a class="donthaveacc">Есть аккаунт?</a>
+                  <a href="#/main/main.html" class="btnReg">Войти</a>
+                </div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>

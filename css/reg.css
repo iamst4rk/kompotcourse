@@ -1,0 +1,77 @@
+@import url("/fonts/style.css");
+
+body {
+    background-color: #E9F3F5;
+    overflow: scroll;
+    font-family: 'Stem', sans-serif;
+}
+
+.reg-container {
+    display: grid;
+    align-items: center;
+    text-align: center;
+	justify-content: center;
+    background-color: white;
+    width: 600px;
+    height: 878px;
+    border-radius: 20px;
+}
+
+.input {
+    display: grid;
+    font-family: 'Stem', sans-serif;
+    /* grid-template-columns: 50% 50%; */
+    margin: 25px 0;
+    padding: 5px 0;
+    /* border-bottom: 100px solid #d9d9d9; */
+    display: inline-block;
+    background: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 14px;
+    border: thin solid #E8E9EB;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    padding-left: 16px;
+    letter-spacing: 0.05rem;
+    color: #3F434A;
+    position: relative;
+}
+
+#or{
+    font-weight: normal;
+    font-size: 12px;
+    color: #8A9099;
+    font-style: normal;
+    align-items: center;
+    opacity: 60%;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#auth-txt{
+    /* font-family: 'Stem'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #3F434A;
+}
+
+#btnEnt {
+    width: 400px;
+    height: 38px;
+    background-color: #304ffd3b;
+    opacity: 50;
+    border-radius: 14px;
+    border-style: hidden;
+    font-family: 'Stem', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    font-style: normal;
+    color: #FFFFFF;
+}

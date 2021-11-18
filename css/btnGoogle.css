@@ -1,0 +1,51 @@
+#customBtn {
+      display: block;
+      /* position: relative;
+      align-items: center; */
+      background: white;
+      color: #444;
+      width: 400px;
+      height: 40px;
+      border-radius: 14px;
+      border: thin solid #E8E9EB;
+      
+      white-space: nowrap;
+    }
+#customBtn:hover {
+      cursor: pointer;
+    }
+span.label {
+      font-family: serif;
+      font-weight: normal;
+    }
+span.icon {
+      display: inline-block;
+      vertical-align: middle;
+      width: 42px;
+      height: 42px;
+    }
+span.buttonText {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 42px;
+      padding-right: 42px;
+      font-size: 14px;
+      font-weight: bold;
+      /* font-family: 'Poppins', sans-serif; */
+    }
+.buttonText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  color: #595F69;
+  margin-top: -9px;
+  margin-left: 55px;
+}
+
+#logo {
+  width: 17px;
+  height: 18px;
+  margin-top: 10px;
+  margin-left: -80px;
+}

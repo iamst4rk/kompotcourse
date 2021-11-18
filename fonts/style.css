@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Stem';
+    src: local('Stem Semi Light'), local('Stem-Semi-Light'),
+        url('Stem-SemiLight.woff2') format('woff2'),
+        url('Stem-SemiLight.woff') format('woff'),
+        url('Stem-SemiLight.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
